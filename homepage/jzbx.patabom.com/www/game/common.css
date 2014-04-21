@@ -1,0 +1,61 @@
+@charset "gb2312";
+
+/* 初始化CSS */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend,img{margin:0;padding:0;}
+fieldset,img{border:none;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol{list-style:none;}
+input {padding-top:0; padding-bottom:0;}
+input::-moz-focus-inner{ border:none; padding:0;}
+select,input{vertical-align:middle;}
+select,input,textarea{font-size:12px;margin:0;}
+input[type="text"], input[type="password"], textarea {outline-style:none; -webkit-appearance:none; }
+textarea {resize:none; }
+table{border-collapse:collapse;}
+body{background:#fff;color:#1b1b1b;min-width:1000px;padding:0;font:12px/20px "Microsoft YaHei","微软雅黑","Simsun","宋体"; min-width:1000px;}
+
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
+.clearfix{zoom:1;}
+.clearit{clear:both;height:0;font-size:0;overflow:hidden;}
+
+a{color:#313131;text-decoration:none;}
+a:visited{color:#959595;}
+a:hover, a:active, a:focus{color:#fbe9d1;}
+
+/*red*/
+.fred, a.fred:visited, a.fred:hover{color:#a90000 !important}
+.gray{ color:#a0a0a0;}
+.space {height:20px; overflow:hidden; background:#fff;}
+.f14 {font-size:14px !important}
+.f16 {font-size:16px !important}
+.bold{font-weight:bold;}
+.nobottom{border-bottom:none !important}
+.nobg{background:none !important}
+h1, h2, h3, h4, h5, em {font-weight:normal; }
+.wrap {width:1000px; margin:0 auto; min-width:1000px; }
+.banner img{ display:block}
+
+/* 导航 */
+.navTop{ background:#313131; margin-top:5px; height:36px; overflow:hidden; line-height:36px; font-size:14px; padding-left:35px;}
+.navTop a.rank{ margin-right:30px;}
+.navTop a:link, .navTop a:visited{color:#a0a0a0; padding:0 7px;}
+.navTop a:hover{color:#f9ee30; text-decoration:none}
+
+/* footer */
+.footer { text-align:center;margin-top:40px;padding:20px 0; border-top:solid 2px #000; line-height:28px; color:#525356;}
+.footer a:link, .footer a:visited{color:#525356}
+.footer a:hover{color:#c00}
+
+/* 二级页头部 */
+.secondaryHeader{height:40px; padding:4px 0; color:#000;font-size:12px;font-weight:100;}
+.secondaryHeader a,.secondaryHeader a:visited{color:#000;text-decoration:none;}
+.secondaryHeader a:hover,.secondaryHeader a:active{color:#c00;text-decoration:underline;}
+.sHBorder{zoom:1;}
+.sHLogo{float:left;height:40px;line-height:40px;overflow:hidden;}
+.sHLogo span,.sHLogo span a{display:block;*float:left;display:table-cell;vertical-align:middle;*display:block;*font-size:27px;*font-family:Arial;height:40px;}
+.sHLogo span,.sHLogo span a img{vertical-align:middle;}
+.sHLinks{float:right;line-height:30px; padding-top:7px;}
+.tn-title-login-custom .tn-user-custom {background:white!important;}
+.tn-title-login-custom .tn-tab-custom {border-color:white!important;}
+
+

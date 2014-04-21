@@ -1,0 +1,218 @@
+/* CSS Document */
+.download {
+	background:url(../images/download.png) no-repeat;
+	width:1008px;
+	height:203px;
+	margin:398px auto 0 auto;
+}
+.download p {
+	color:#666666;
+	line-height:21px;
+}
+.d_a p .d_a_btn, .d_b p .d_b_btn, .d_c p .d_c_btn {
+	background:url(../images/download_btn.png) no-repeat;
+	width:127px;
+	height:31px;
+	display:inline-block;
+	cursor:pointer;
+}
+.d_a, .d_b, .d_c {
+	width:248px;
+	height:96px;
+	margin-top:53px;
+}
+.d_a {
+	margin-left:44px;
+	padding-top:15px;
+}
+.d_b {
+	margin-left:87px;
+	padding-top:15px;
+}
+.d_c {
+	margin-left:95px;
+	padding-top:15px;
+}
+
+.d_a p .d_a_btn {
+	background-position:0 0;
+	margin-top:5px;
+}
+
+.d_a p .d_a_btn:hover{
+	background-position:0 -31px;
+}
+.d_b p .d_b_btn {
+	background-position:-336px 0;
+	margin-top:5px;
+}
+
+/*.d_b p .d_b_btn:hover {*/
+	/*background-position:-336px -31px;*/
+/*}*/
+.d_c p .d_c_btn {
+	background-position:-674px 0;
+	margin-top:5px;
+}
+
+.d_c p .d_c_btn:hover{
+	background-position:-674px -31px;
+}
+.td_code {
+	position:absolute;
+	top:0;
+	right:6px;
+}
+.td_code img {
+	width:91px;
+	height:91px;
+}
+.content_l {
+	width:522px;
+	margin-top:-35px;
+}
+.content_r {
+	background:url(../images/r_b.png) no-repeat 0 0;
+	width:418px;
+	margin-top:-35px;
+}
+/*左下角导航图片特效*/
+img {
+	display:block
+}
+.box {
+	width:522px;
+	margin:auto;
+	position:relative;
+	height:232px;
+	background:#000;
+	margin-top:25px;
+}
+.box a {
+	float:left
+}
+.floor-maskItem {
+	position:absolute;
+	float:left
+}
+.floor-maskItem img {
+	float:left
+}
+.mask {
+	position:absolute;
+	left:0;
+	top:0;
+	background:#000;
+	width:260px;
+	height:115px;
+	opacity:0;
+	filter:alpha(opacity=0)
+}
+.hover .mask {
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	cursor:pointer
+}
+.hover .qq .mask {
+	opacity:0;
+	filter:alpha(opacity=0)
+}
+.dw1 {
+	left:262px;
+	top:0px;
+}
+.dw2 {
+	left:0px;
+	top:117px;
+}
+.dw3 {
+	left:262px;
+	top:117px;
+}
+.news_title {
+	background:url(../images/news_title.png) no-repeat 0 0;
+	height:33px;
+	margin-left:7px;
+}
+.news_title a {
+	font-family:"黑体";
+	font-size:14px;
+	font-weight:200;
+	color:#ffffff;
+	line-height:33px;
+	letter-spacing:1px;
+}
+.news_title a:hover {
+	text-decoration:underline;
+}
+.news_content {
+	background:url(../images/mark.png) no-repeat 0 10px;
+	width:380px;
+	margin:auto;
+}
+.news_content h1 {
+	text-indent:15px;
+}
+.news_content h1 a {
+	font-size:18px;
+	color:#ffffff;
+	font-weight:500;
+	width:340px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+}
+.news_content h1 a:hover {
+	text-decoration:underline;
+}
+.news_content p {
+	color:#ffc600;
+	text-indent:28px;
+}
+.news_list {
+	padding-top:26px;
+}
+.news_list li {
+	color:#f0d79a;
+	height:25px;
+	line-height:20px;
+	letter-spacing:1px;
+}
+.news_list li a {
+	color:#f0d79a;
+	width:200px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+}
+.news_list li a:hover {
+        color: #ffffff;
+}
+.video {
+	padding-top:36px;
+	padding-left:8px;
+}
+.box .dialog { position:absolute;width:400px;left:250px;top:-60px; padding-bottom:20px; background:#fff;border:5px solid #760300;padding:20px;color:#666}
+.box .dialog a { display:block;width:15px;height:16px; margin:-10px; float:right}
+.box .dialog p {line-height:32px;letter-spacing:1px; text-indent:10px; font-size:14px; font-family:"Microsoft Yahei"}
+.box .dialog span {color:#000;line-height:32px;font-family:"Microsoft Yahei"}
+.box .dialog .tx {color:#F00}
+
+.coop { padding-top:32px; *padding-top:37px; padding-left:8px; }
+.coop_content { width:380px; margin:auto; }
+.coop_content h2 { border-bottom:1px solid #b44238; padding-top:14px; }
+.coop_content h2 a:link, .coop_content h2 a:visited{ display:inline-block; width:94px; color:#fff; font-size:14px; font-family:'Microsoft Yahei'; line-height:34px; text-align:center; }
+.coop_content h2 a:hover, .coop_content h2 a.current { background:#b44238;}
+.coop_content .c_news iframe { width:380px; height:110px; overflow:hidden; }
+.coop_content .coop_www a { width:92px; height:48px; display:inline-block;}
+.coop_content .coop_news{ padding-top: 15px;}
+.coop_content .coop_www .noMargin { margin-left:0; }
+/*----------------提示框---------------------*/
+.box .dialog { position:absolute;width:400px;left:60px;top:20px; padding-bottom:20px; background:#00070e;color:#fff}
+.box .dialog a { display:block;width:15px;height:16px; margin:5px; float:right}
+.box .dialog p {line-height:32px;letter-spacing:1px; text-indent:10px; font-size:14px; font-family:"Microsoft Yahei"}
+.box .dialog span {color:#f0d79a}
+.box .dialog .tx {color:#F00}

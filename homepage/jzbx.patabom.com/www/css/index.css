@@ -1,0 +1,188 @@
+/* CSS Document */
+
+#download { width:778px; margin:360px 0 16px 98px; }
+#download dl dt { float:left; padding-top:1px; }
+#download dl dt ul { width: 571px; overflow:hidden; }
+#download dl dt li { width:152px; height:143px; background:url(../images/down-bj.png) no-repeat; float:left; padding:32px 0 0 21px; margin-right:26px;  }
+#download dl dt .code1 { background-position:0 0; }
+#download dl dt .code2 { background-position:0 -175px; }
+#download dl dt .code3 { background-position:0 -350px; margin-right:0; }
+#download dl dd { float:right; }
+#download dl dd ul { width:186px; }
+#download dl dd li { padding-top:12px; }
+#download dl dd .noPad { padding:0; }
+#download dl dd li a { display:block; width:186px; height:52px; background:url(../images/down_btn.png) no-repeat;}
+#download dl dd li a:hover { display:block; width:186px; height:52px; background:url(../images/down_btn1.png) no-repeat;}
+#download dl dd .d_1, #download dl dd .d_1:hover { background-position:0 0; }
+#download dl dd .d_2, #download dl dd .d_2:hover { background-position:-186px 0; }
+#download dl dd .d_3, #download dl dd .d_3:hover { background-position:-372px 0; }
+
+.content_l_a {	
+	width:514px;
+	height:282px;
+	float:left;
+}
+
+.content_r_a {
+	width:460px;
+	height:282px;
+	float:right;
+}
+
+.content_l_b {
+	width:602px;
+	float:left;
+}
+
+.content_r_b {
+	width:360px;
+	float:right;
+}
+.comiis_wrapad {
+	margin:0 auto;
+	width: 514px;	
+	overflow: hidden;
+}
+#frameHlicAe {
+	position:relative;
+}
+.slidebar {
+	position: absolute;
+	right: 10px;
+	bottom: 14px;
+}
+.slidebar li {
+	float: left;
+	margin-right:8px;
+	width:12px;
+	height:12px;
+	background:url(../images/bullets.png) no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+	text-indent:-999px;
+}
+.slidebar li.on {
+	background-position:0 -22px;
+}
+#slidesImgs li {
+	width: 490px;
+	height: 282px;
+	display: none;	
+}
+
+#slidesImgs li a {
+	width:514px;
+	height:282px;	
+	border:0px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+#slidesImgs li img { width:514px; height:282px;}
+
+.t_title {
+	position:absolute;
+	left:10px;
+	top:8px;
+}
+
+.t_title a {
+	display:inline-block;
+	width:90px;
+	height:42px;
+	color:#fff;
+	font-size:18px;
+	font-family:'黑体';
+	text-align:center;
+	line-height:35px;
+}
+
+.t_title a.current {
+	color:#7f93ff;
+	background:url(../images/icon.png) no-repeat center bottom;
+}
+
+/*首页新闻列表*/
+
+.content_r_a_c {
+	padding:0 20px;
+}
+
+.news_list {
+	padding-top:16px;
+}
+
+.news_list li {
+	height:35px;
+	position:relative;
+}
+.news_list li a {
+	color:#fff;
+}
+
+.news_list li a:hover {
+	
+	text-decoration:underline;	
+}
+
+.news_list li span.time {
+	color:#999999;
+	position:absolute;
+	right:10px;
+}
+
+/*合作媒体*/
+.content_hzmt{padding:24px 28px; *height:30px; }
+.content_hzmt li{float:left; margin-right:4px; display:inline;}
+
+
+/*游戏截图*/
+/*.con_center_yxjt{background:url(../images/content_left_b.png) repeat-y;}*/
+.content_yxjt{padding:5px 0 0 18px; *height:209px;}
+.content_yxjt li{float:left;margin:0 12px 14px 0;display:inline;}
+
+
+/*客服中心*/
+/*.con_center_kfzx{background:url(../images/content_r_b.png) repeat-y;}*/
+.content_kfzx{padding:0 0px 0 23px;}
+
+
+.customer p{
+	color:#fff;
+	line-height:35px;
+	font-size:13px;
+}
+.customer span{margin:4px 0 0 0;display:block;}
+
+.customer {
+	height:215px;
+}
+
+
+/* 球员展示*/
+
+.content_qyzs{}
+.content_qyzs li{float:left;margin:13px 11px 5px 11px;display:inline;}
+
+
+
+
+#demo {
+
+overflow:hidden;
+
+width: 950px;margin:0 0 0 18px;
+}
+
+#con_center_ny {
+float: left;
+width: 800%;
+}
+#content_qyzs {
+float: left;
+}
+#demo2 {
+float: left;
+}
+

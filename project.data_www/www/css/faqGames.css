@@ -1,0 +1,10 @@
+/* CSS Document */
+.b_left { width:258px; float:left; margin-top:30px; padding:0 8px; }
+.b_left ul {}
+.b_left ul li { width:245px; height:128px; background:url(../images/list_bj.png) no-repeat 0 -128px; margin-bottom:34px; }
+.b_left ul li:hover, .b_left ul li.current { background:url(../images/list_bj.png) no-repeat 0 0; } 
+.b_left ul li img { padding:8px 0 0 8px; }
+.b_right { width:680px; float:right;}
+#menubox {position:relative;}
+#menubox #game_title { position:absolute; right:-660px;top:6px; font-size:14px; font-family:'Microsoft Yahei';letter-spacing:1px; color:#fff; }
+

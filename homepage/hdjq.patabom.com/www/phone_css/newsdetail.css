@@ -1,0 +1,61 @@
+/*首页*/
+.con{margin-top:35px;clear:both;width:100%}
+
+/*-----------新闻公告--------------*/
+
+.news_t {
+	height:3.0em;line-height:3.0em;width:100%;background:#1b0800;border-bottom:3px solid #851616;
+}
+
+.news_t p.p_bt {
+	padding:0 0 0 1em;
+	color:#ffffff;
+}
+.news_t p.p_bt a {
+	color:#ffffff; text-decoration:none;
+}
+.news_t p.p_bt a:hover, .news_t p.p_bt a.current {
+	color:#ffc025;
+}
+
+.box{padding:1em;}
+.content_t h1, .content_t p {
+	text-align:center;
+}
+.content_t h1 {
+	font-size:1.5em;
+	color:#ffffff;
+	line-height:150%;
+	font-weight:normal;
+}
+.content_t p {
+	
+	font-size:1em;
+	color:#a5a7ac;
+	line-height:2em;
+}
+.content_c p.ct {
+	padding:1em 0 1em 0;
+	text-align:center;
+}
+.content_c {
+	padding:30px 0 60px 0;
+    max-width: 100%;
+}
+
+.content_c p {
+	text-indent:24px;
+	font-size:1em;
+	color:#ffffff;
+	line-height:32px;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+
+.more{color:#Fff; text-align:center;padding:0 1em;background:#310f00;}
+.more a{color:#fff;text-decoration:none;width:100%;display:block;padding:1em 0;}
+
+/*---------------------------新闻结束----------------------*/

@@ -1,0 +1,44 @@
+/* CSS Document */
+.title {
+	border-bottom:1px dashed #d8d8d8;
+	font-family:"黑体";
+	font-size:24px;
+	color:#629451;
+	text-indent:40px;
+	padding-bottom:10px;
+	margin-top:30px;
+	
+}
+.and_icon {
+	background:url(../images/and_icon.png) no-repeat
+}
+.content_d {
+	margin-top:15px;
+	padding-left:10px;
+	position:relative;
+	height:160px;
+}
+.ios_icon {
+	background:url(../images/ios_icon.png) no-repeat;
+}
+.content_d img {
+	float:left;
+}
+.content_d p {
+	text-indent:25px;
+	line-height:35px;
+	color:#666;
+	font-size:14px;
+}
+.content_d a, .content_d a:hover {
+	background:url(../images/d_btn.png) no-repeat;
+	width:186px;
+	height:42px;
+	display:inline-block;
+	position:absolute;
+	right:35px;
+	top:40px;
+}
+.content_d a:hover {
+	background-position:0 -42px;
+}

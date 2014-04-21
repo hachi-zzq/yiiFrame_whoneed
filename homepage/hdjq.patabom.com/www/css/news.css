@@ -1,0 +1,38 @@
+/* CSS Document */
+.news_list {
+	width:906px;
+	margin:auto;
+}
+.news_list li {
+	line-height:48px;
+	height:48px;
+	background:url(../images/icon.png) no-repeat 0 18px;
+	border-bottom:1px dashed #a43a2b;
+}
+
+.news_list .list_type {
+	padding-left:18px;
+	color:#ffff00;
+}
+.news_list li a {
+	line-height:20px;
+	color:#ffffff;
+	width:500px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	margin-top:13px;
+}
+
+.news_list li a:hover {
+	text-decoration:underline;
+}
+
+.news_list .list_time {
+	padding-left:18px;
+	color:#c5c1c1;
+}
+
+
+	

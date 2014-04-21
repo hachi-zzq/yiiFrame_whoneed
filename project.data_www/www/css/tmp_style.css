@@ -1,0 +1,141 @@
+/* CSS Document */
+
+/*Reset*/ 
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	padding: 0;
+	margin: 0;
+}
+
+body, button, input, textarea {
+	font: 12px/1.5 Tahoma, Helvetica, Arial, 'Microsoft YaHei', sans-serif;
+}
+button, input, textarea {
+	vertical-align: middle;
+}
+ol, ul {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+fieldset, img {
+	border: 0;
+	vertical-align: top;
+}
+ input:-moz-placeholder {
+ font-weight:bold;
+ color:#22284f;
+}
+ input::-webkit-input-placeholder {
+ font-weight:bold;
+ color: #22284f
+}
+a {
+	outline: none;
+	text-decoration:none;
+}
+a:active {
+star:expression(this.onFocus=this.blur());
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+address, caption, cite, code, dfn, em, i, th, var {
+	font-weight: normal;
+	font-style: normal;
+}
+ul:after, ol:after, dl:after, .clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0.1em;
+	height: 0.1px;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom:100%;
+}
+body {
+	background:#181c23;
+	height:100%;
+	width:100%;
+    *width:100%;
+	margin:auto;
+}
+
+.main_body { width:981px; margin:0 auto; }
+
+/*customer*/
+
+.left { float:left; }
+.right { float:right; }
+.header { border-bottom:1px solid #ffffff; }
+
+.logo { background:url(../images/logo.png) no-repeat; width:256px; height:80px; }
+.lg { padding-top:75px; color:#ffffff; }
+.lg a { color:#CC0; }
+
+#header_top { padding:20px 0 30px 0 }
+
+#title { width:300px; float:left; }
+#title h1 { font-size:18px; font-family:"微软雅黑"; color:red; }
+#title h1 span { padding:0 4px;font-size:20px; }
+
+#nav { width:300px; float:right; }
+#nav ul {padding-top:6px; }
+#nav ul li { width:60px; float:left; }
+#nav li a { color:#fff; text-align:center; }
+#nav li a:hover { color:#F93 }
+
+#header_title { padding-bottom:10px; }
+#header_title h3 { font-family:"Microsoft Yahei"; color:red; font-weight:normal; }
+
+#c_left { width:200px; background:#292d36; float:left; }
+#c_right { width:750px; float:right; border-left:1px solid #fff; margin-top:18px; min-height:350px; }
+
+#c_left ul { padding: 20px 0 120px 0; }
+#c_left li { margin-bottom:20px;}
+#c_left li a { display:block; line-height:30px; text-align:center; height:30px; background:#fff; color:#555}
+#c_left li a:hover, #c_left li a.current { background:red; color:#fff; }
+
+#footer { border-top:1px solid #fff; padding:30px 0 40px 100px; margin-top:20px; }
+#footer p { color:red; }
+
+
+#submit { padding-left:30px; }
+#submit .text_input { margin-top:15px;}
+#submit .text_input label { display:inline-block; width:75px; font-size:"Microsoft Yahei"; color:#808080}
+#submit .text_input select { width:200px; text-align:center}
+#submit .text_input select option { text-align:center;}
+#submit .text_input input[type=text] {width:200px;}
+#submit .text_input input[type=file] {width:150px; color:#555; }
+#submit .text_input input[type=submit] {display:inline-block; width:48px; height:26px; color:red; cursor:pointer; background:#0066ff; border-radius:5px; border:0; margin-left:240px;  }
+#submit .text_input input[type=submit]:hover { background:#5190ee; }
+#submit .text_input span {color:red; letter-spacing:1px; }
+#submit .text_input textarea {width:400px; height:220px; }
+
+#que_list table { margin-left:10px; color:#555; }
+#que_list table tr {border-bottom:1px dashed #fff;}
+#que_list table .t_head {border-bottom:1px solid #fff;}
+#que_list table tr td{line-height:30px;width:186px; text-align:center }
+#que_list table tr td a{line-height:26px;color:#555; }
+#que_list table tr td a:hover{color:#fff; }
+
+
+#que_detail {padding-bottom:30px; }
+#que_detail table , #que_detail p {margin-left:10px;font-size:"Microsoft Yahei"; color:#808080; }
+#que_detail p { padding:10px 0 10px 0;}
+#que_detail .b_left { padding-left:100px;}
+#que_detail #answer {margin-left:110px;}
+#que_detail table tr { border-bottom:1px dashed #fff; }
+#que_detail table tr td {line-height:30px; width:240px; }
+#que_detail table tr .mark { color:#de0e50 }
+#que_detail textarea {width:400px; height:220px;}

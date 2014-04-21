@@ -1,0 +1,6 @@
+﻿.comiis_wrapad {margin: 0 auto; width: 520px;overflow: hidden; }
+#frameHlicAe { position:relative}
+.slidebar { position: absolute; right: 20px; bottom: 10px; }
+.slidebar li { float: left;margin-right:2px;width:24px;height:20px;background: #000;color:#ffffff;font-weight:bold; font-family:"黑体";overflow: hidden;line-height: 20px; text-align: center; cursor: pointer; }
+.slidebar li.on {background: rgba(64,0,0,30); }
+#slidesImgs li { width: 520px; height: 240px; display: none; }

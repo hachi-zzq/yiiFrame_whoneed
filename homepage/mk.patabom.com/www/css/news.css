@@ -1,0 +1,111 @@
+/*-----------新闻公告--------------*/
+
+.t_list {
+	height:34px;
+}
+.t_list li {
+	float:left;
+	width:99px;
+ height34px;
+}
+.t_list li a span {
+	display:none;
+}
+.t_list li a {
+	width:99px;
+	height:34px;
+	display:block;
+	background:url(../images/list_bj1.jpg) no-repeat;
+}
+.t_list li a:hover, .t_list li a.current {
+	background:
+ url(../images/list_bj2.jpg) no-repeat;
+}
+.t_list li a#list1 {
+	background-position:0 0;
+}
+.t_list li a#list2 {
+	background-position:-99px 0;
+}
+.t_list li a#list3 {
+	background-position:-198px 0;
+}
+.t_list li a#list4 {
+	background-position:-297px 0;
+}
+.news_title h1 {
+	font-size:14px;
+	color:#577cdb;
+	text-align:center;
+	padding-top:4px;
+	padding-bottom:5px;
+}
+.news_title h1 a {
+	color:#577cdb;
+	width:260px;
+	overflow:hidden;
+}
+.news_title h1 a:hover {
+	text-decoration:underline;
+}
+.news_title p {
+	line-height:45px;
+	text-indent:6px;
+	color:#a4beff;
+	font-size:14px;
+	width:510px;
+	overflow:hidden;
+}
+.news_title {
+	border-bottom:1px dashed #21325c;
+}
+.news_list {
+	padding-top:10px;
+}
+.news_list li {
+	line-height:45px;
+	height:45px;
+	position:relative;
+	border-bottom:1px dashed #15254d;
+}
+.news_list li a{
+	color:#ffffff;
+}
+
+.news_list li span.icon{
+	color:#ffff00;
+}
+.news_list li a {
+	width:500px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+	margin-left:48px;
+}
+.news_list li span.icon{
+	position:absolute;
+	left:0;
+	top:3px;
+	display:inline-block;
+}
+
+.news_list li span.type{
+	position:absolute;
+	left:8px;
+	top:0;
+	color:#82b0ff;
+	letter-spacing:1px;
+}
+
+.news_list li span.time{
+	position:absolute;
+	right:0;
+	top:0;
+	color:#a5a7ac;
+}
+.news_list li a:hover {
+	text-decoration:underline;
+}
+
+/*---------------------------新闻结束----------------------*/

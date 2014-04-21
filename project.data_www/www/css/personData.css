@@ -1,0 +1,127 @@
+/* CSS Document */
+.www_zzjs_net_show {
+	display:none;
+	padding:13px 11px
+}
+#con_zzjs_1 {
+	display:none;
+	width:600px;
+	margin:120px auto 160px auto;
+}
+#con_zzjs_2 {
+	display:block;
+	width:970px;
+	margin:20px 0 0 0
+}
+#menubox {
+	width:206px;
+	height:39px;
+}
+#menubox ul li {
+	list-style:none;
+	cursor:pointer;
+	width:103px;
+	height:39px;
+	line-height:34px;
+	text-align:center;
+	background:url(../images/btn_tab.png) no-repeat;
+	float:left;
+	color:#ffffff;
+	letter-spacing:2px;
+	font-family:"微软雅黑";
+}
+#menubox ul li.active {
+	background:url(../images/btn_tab.png) no-repeat;
+	background-position:-103px 0;
+}
+#con_zzjs_1 label, #con_zzjs_2 label {
+	line-height:46px;
+	color:#ffffff;
+	font-family:"微软雅黑";
+	letter-spacing:3px;
+}
+.inputText_pe {
+	background:#e1e2e9;
+	width:285px;
+	height:35px;
+	border:0;
+	text-indent:24px;
+	color:#22284f;
+	font-family:"微软雅黑";
+	margin:0 12px 0 16px;
+}
+.inputText_determine {
+	background:#e1e2e9;
+	width:105px;
+	height:35px;
+	border:0;
+	text-indent:24px;
+	color:#22284f;
+	font-weight:bold;
+	font-family:"微软雅黑";
+	font-size:18px;
+	margin:0px 12px 0 68px;
+}
+.btnLogin_person {
+	background:#35b5eb;
+	width:105px;
+	height:40px;
+	border:0;
+	text-align:center;
+	color:#ffffff;
+	letter-spacing:2px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	cursor:pointer;
+}
+.perfectData_left {
+	width:500px;
+	border-right:1px dashed #5c6879;
+}
+.perfectData_right {
+	width:468px;
+	text-indent:40px;
+}
+.perfectData_right p {
+	color:#ffffff;
+	line-height:35px;
+	font-family:"微软雅黑";
+}
+.inputText_avatar {
+	background:url(../images/file_up.png) no-repeat;
+	width:96px;
+	height:96px;
+	margin:0 12px 0 16px;
+}
+.click {
+	background-color:#081f39;
+	height:35px;
+	color:#ffffff;
+	font-family:"微软雅黑";
+	letter-spacing:2px;
+	border:0;
+	outline:none;
+	cursor:pointer;
+	padding:0 5px 0 5px;
+}
+.btn-file {
+	position: relative;
+	display: inline-block;
+	width: 96px;
+	height: 96px;
+	background: url(../images/file_up.png) no-repeat center top;
+	text-align: center;
+	overflow: hidden;
+	padding-left:28px;
+}
+
+.btn-file input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 96px;
+	height: 96px;
+	opacity: 0;
+ filter: alpha(opacity: 0);
+	cursor: pointer;
+}

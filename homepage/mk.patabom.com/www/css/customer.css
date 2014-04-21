@@ -1,0 +1,67 @@
+/* CSS Document */
+.box p {
+	color:#ffffff;
+	font-size:14px;
+	font-family:"宋体";
+	line-height:26px;
+	text-indent:8px;
+}
+.box h1{
+	font-size:24px;
+	color:#93b1ff;
+	font-family:"黑体";
+	line-height:50px;
+	text-indent:8px;
+}
+
+.box .cus p {
+	line-height:40px;
+}
+
+.border {
+	border-top:1px dashed #15254d;
+	text-indent:0;
+	margin-top:10px;
+	height:10px;
+}
+
+.border1 {
+	border-bottom:1px solid #15254d;
+	height:20px;
+	text-indent:0;
+}
+
+.box .title {
+	background:url(../images/c_icon.png) no-repeat 10px 10px;
+	font-size:16px;
+	text-indent:22px;
+	letter-spacing:1px;
+	height:30px;
+	position:relative;
+	margin-top:20px;	
+}
+
+.box .title span{
+	background:url(../images/c_btn.png) no-repeat;
+	background-position:0 -18px;
+	width:18px;
+	height:18px;
+	display:inline-block;
+	position:absolute;
+	top:4px;
+	right:5px;
+	cursor:pointer;
+}
+
+.box .title span.current {	
+	background-position:0 0;
+}
+
+.box .question {
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.box .question p {
+	text-indent:20px;
+}
+

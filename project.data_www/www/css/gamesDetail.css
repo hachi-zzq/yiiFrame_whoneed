@@ -1,0 +1,176 @@
+/* CSS Document */
+.gDetail_body {
+	margin-top:16px;
+	padding-bottom:20px;
+}
+.gd_content
+{
+	width:972px;
+	margin:auto;
+}
+.gamesDetail_left {
+	width:678px;
+	float:left;
+	background:#ffffff;
+}
+.gamesDetail_right {
+	width:270px;
+	float:right;
+	background:#ffffff;
+}
+.gLeft_title {
+	background:url(../images/gTitle_left.png) no-repeat #081f39;
+	width:171px;
+	height:40px;
+	color:#ffffff;
+	font-size:14px;
+	text-indent:24px;
+	line-height:40px;
+}
+.gLeft_content {
+	width:500px;
+	margin:40px auto 0 auto;
+}
+.gamesDetail_download {
+	margin-top:45px;
+	width:500px;
+	height:128px;
+	background:#dcdcdc;
+}
+.gamesDetail_int {
+	padding-top:23px;
+	padding-bottom:37px;
+}
+.gInt_title {
+	color:#0a2747;
+	font-size:14px;
+}
+.gInt_content p {
+	line-height:26px;
+	font-family:"宋体";
+	color:#666666;
+}
+.gamesDetail_download_left {
+	width:223px;
+	height:114px;
+	float:left;
+}
+.gamesDetail_download_right {
+	width:277px;
+	float:right;
+	text-align:center;
+	padding-top:12px;
+}
+.gamesDetail_download_right p {
+	line-height:40px;
+	font-size:14px;
+	color:#0a2747;
+}
+.www_zzjs_net_show {
+	display:none;
+	padding:8px 11px 7px 5px;
+}
+.ct_btn {
+	color:#ffffff;
+	font-size:14px;
+	font-family:"黑体";
+	background:#35b5eb;
+	width:80px;
+	height:26px;
+	display:block;
+	line-height:26px;
+	text-align:center;
+	margin-top:6px;
+	cursor:pointer;
+}
+
+.ct_btn:hover {
+	background:#12729b;
+}
+#con_zzjs_1 {
+	display:block;
+}
+#menubox {
+	width:105px;
+	height:128px;
+	float:left
+}
+#menubox ul li {
+	list-style:none;
+	cursor:pointer;
+	width:105px;
+	height:64px;
+	line-height:64px;
+	text-align:center;
+	font-size:18px;
+	font-weight:100;
+	color:#606060
+}
+#menubox ul li.hover {
+	background:#ececec;
+}
+#conten {
+	width:112px;
+	height:114px;
+	float:right;
+}
+.gRight_title {
+	background:#052243;
+	width:270px;
+	height:40px;
+	color:#ffffff;
+	font-size:14px;
+	text-indent:24px;
+	line-height:40px;
+}
+.gRight_content
+{
+	width:210px;
+	margin:auto;
+	margin-top:7px;
+}
+.view-wrap ul {
+	padding:0;
+	margin:0;
+	height:20000px;
+}
+.view-wrap li {
+	list-style-type:none;
+	float:left;
+	width:210px;
+	height:106px;
+	text-align:center;
+	line-height:106px;
+	padding-top:6px;
+}
+.view-wrap, .items {
+	width:210px;
+	overflow:hidden;
+	height:672px;
+}
+.views-list {
+	position:relative;
+	height:752px;
+	margin:0 auto;
+}
+.prev {
+	margin-left:5px;
+	display:block;
+	background:url(../images/pre_btn.gif) no-repeat #fff;
+}
+.next {
+	position:absolute;
+	left:5px;
+	background:url(../images/next_btn.gif) no-repeat #fff;
+}
+.prev, .next {
+	height:40px;
+	width:200px;
+	text-align:center;
+	line-height:40px;
+	color:#000;
+	text-decoration:none;
+}
+.disabled-btn {
+	background-position:0 -40px;
+}

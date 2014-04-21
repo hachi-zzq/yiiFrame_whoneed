@@ -1,0 +1,72 @@
+/*首页*/
+.con{margin-top:35px;clear:both;width:100%}
+
+/*-----------新闻公告--------------*/
+
+.t_list {
+	height:3.0em;width:100%;background:#1b0800;border-bottom:3px solid #851616;
+}
+.t_list li {
+	float:left;
+	width:33%;
+}
+.t_list li a span {
+	color:#fff;
+}
+.t_list li a {
+	
+	height:3.0em;line-height:3.0em;
+	display:block;
+	background:#1b0800; text-decoration:none; text-align:center;
+}
+.t_list li a:hover, .t_list li a.current {
+	background:#560900;
+}
+
+.t_list li a#list1 {
+	border-right:1px solid #371100
+}
+.t_list li a#list2 {
+	border-right:1px solid #371100
+}
+
+
+.news_list {
+	padding:0.7em;
+}
+.news_list li {
+	line-height:3em;
+	height:3em;
+	position:relative;
+	
+}
+.news_list li a{
+	color:#f0d79a;
+}
+
+.news_list li span.icon{
+	color:#ffff00;
+}
+.news_list li a {
+	width:80%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:inline-block; text-decoration:none;
+	
+}
+
+.news_list li span.time{
+	position:absolute;
+	right:0;
+	top:0;
+	color:#ae9d84;
+}
+.news_list li a:hover {
+	text-decoration:none;
+}
+
+.more{color:#Fff; text-align:center;padding:0 1em;background:#310f00;}
+.more a{color:#fff;text-decoration:none;width:100%;display:block;padding:1em 0;}
+
+/*---------------------------新闻结束----------------------*/

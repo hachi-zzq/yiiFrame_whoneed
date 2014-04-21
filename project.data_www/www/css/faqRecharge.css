@@ -1,0 +1,72 @@
+/* CSS Document */
+#menubox {
+	width:309px;
+	height:39px;
+}
+#menubox ul li {
+	list-style:none;
+	cursor:pointer;
+	width:103px;
+	height:39px;	
+	text-align:center;
+	background:url(../images/btn_tab1.png) no-repeat;
+	float:left;
+	
+}
+#menubox ul li a {
+	line-height:34px;
+	color:#ffffff;
+	letter-spacing:2px;
+	font-family:"微软雅黑";
+}
+	
+#menubox ul li.active {
+	background:url(../images/btn_tab1.png) no-repeat;
+	background-position:-103px 0;
+}
+
+.box {
+	padding-top:10px;
+	}
+.box .title {
+	background:url(../images/c_icon.png) no-repeat 10px 13px;
+	font-size:14px;
+	font-family:'Microsoft Yahei';
+	color:#fff;
+	text-indent:22px;
+	letter-spacing:1px;
+	height:30px;
+	line-height:30px;
+	position:relative;
+	margin-top:20px;	
+}
+
+.box .title span{
+	background:url(../images/c_btn.png) no-repeat;
+	background-position:0 -18px;
+	width:18px;
+	height:18px;
+	display:inline-block;
+	position:absolute;
+	top:4px;
+	right:5px;
+	cursor:pointer;
+}
+
+.box .title span.current {	
+	background-position:0 0;
+}
+
+.box .question {
+	padding-top:10px;
+	padding-bottom:35px;
+}
+.box .question p {
+	padding-left:20px;
+	line-height:30px;
+	color:#667080;
+	font-size:14px;
+	font-family:'Microsoft Yahei';
+}
+
+.box .border1{ border-bottom:1px solid #25374e; }

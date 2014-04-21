@@ -1,0 +1,122 @@
+﻿/* CSS Document */
+.customer_ul
+{
+    width:981px;
+    margin:25px auto 75px auto;
+}
+.customer_li
+{
+	width:327px;
+	height:208px;
+	float:left
+}
+.customer_list
+{
+	width:315px;
+	height:196px;
+	margin:auto;
+	position:relative;
+}
+.customer_title
+{
+    padding-top:16px;
+    width:971px;
+    margin:auto
+}
+.customer_nav
+{
+	float:left
+}
+.customer_login
+{ 
+    padding-right:13px; 
+	float:right;
+}
+.customer_nav a 
+{
+	color:#ffffff;
+	font-size:14px;
+	font-family:"微软雅黑";
+	padding-right:22px;
+	text-decoration:none;
+}
+.customer_login a
+{
+	color:#fbfe00;
+	font-size:14px;
+	font-family:"微软雅黑";
+	text-decoration:none;
+}
+.customer_span
+{
+	color:#fbfe00;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+.customer_nav a:hover
+{
+	color:#fbfe00;	
+}
+
+a.visited
+{
+	color:#fbfe00;	
+}
+.customer_content
+{
+	width:972px;
+	margin:auto;
+	margin-top:25px;
+	border-top:1px dashed #5c6879;
+	padding-top:22px;
+	padding-bottom:20px;
+}
+.customer_content p
+{
+	color:#ffffff;
+	line-height:35px;
+	font-family:"微软雅黑";
+	letter-spacing:1px;
+}
+.cus_title
+{
+	padding-top:10px;
+}
+
+.customer_list a span {
+	display:none;
+	cursor:hand;
+	text-align:center;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#7a828b;
+	padding-top:8px;
+	padding-bottom:5px;
+}
+.customer_list a:hover span {
+	width:315px;
+	margin:0;
+	background:#000;
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:0;
+	color:#fff;
+	filter:alpha(opacity=56);
+	-moz-opacity:0.6;
+	opacity:0.6;
+	border-top:1px #2b2724 solid;
+}
+/*faq css*/
+.customer_span_out
+{
+	color:#ffffff;
+	font-family:"微软雅黑";
+}
+.customer_span_a
+{
+	color:#fbfe00;
+	font-size:12px;
+	font-family:"微软雅黑";
+	text-decoration:none;
+}

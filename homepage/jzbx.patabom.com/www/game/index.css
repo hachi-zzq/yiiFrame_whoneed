@@ -1,0 +1,120 @@
+@charset "gb2312";
+/* CSS Document */
+
+a {outline:0 none;}
+.navSub {height:38px; background-color:#c53f46;}
+.navSub a {float:left; width:127px; height:30px; border:3px solid #313131; border-top:none; margin-left:-3px; text-align:center; font-family:"microsoft yahei","simhei"; font-weight:bold; font-size:18px; line-height:30px;}
+.navSub .sub01 {margin-left:0; background-color:#f9ee30;}
+.navSub .sub02 {background-color:#fabf00;}
+.navSub .sub03 {background-color:#f07100;}
+.navSub .sub04 {background-color:#f36861;}
+.navSub .sub05 {background-color:#c53f46; width:105px;}
+.navSub a:hover,
+.navSub .active {height:35px; line-height:35px; font-size:18px; line-height:35px; color:#313131;}
+
+.step {height:78px; background-image:url(images/step_img.jpg);}
+
+.group {height:288px;background-image:url(images/step_img.jpg);}
+.group-item {float:left; width:124px; height:288px; border-right:1px solid #dcdcdc; background-color:white;}
+.group-item h4 {padding:10px 0;font-size:24px; font-weight:bold; text-align:center;}
+.group-item-first {width:123px; border-left:1px solid #dcdcdc;}
+.group-item:hover {background-color:#dcdcdc;}
+
+.group ol {padding:0 8px;}
+.group ol li {height:50px; padding-bottom:8px;}
+.group .team-left {float:left; width:36px; height:36px; padding-top:8px;}
+.group .team-left img {width:36px; height:36px;}
+.group .team-right {float:left; _display:inline;}
+.group .team-right h5 {font-size:16px; line-height:25px; font-weight:bold;}
+.group .team-right a {float:left; width:15px; height:19px; background:url(images/point.png) no-repeat 0 0; padding-left:4px; font:bold 12px/15px Arial, Helvetica, sans-serif; color:white;}
+.group .team-right a:hover,
+.group .team-right a.active {background-position:0 -25px;}
+
+.road {}
+.road-hd {height:31px; background-image:url(images/road_hd.jpg);}
+.road-bd {position:relative; height:663px; background-image:url(images/road_bd_bg.jpg);}
+
+.team-0 {position:relative; z-index:3; height:663px;}
+.gray_layer {position:absolute; z-index:1; left:0; top:0; width:1000px; height:663px;/*background-color:#320000; filter:alpha(opacity:20); background-color:rgba(50,0,0,0.2);*/}
+.road_img {position:absolute; z-index:2; left:0; top:0; width:1000px; height:663px;}
+
+.team-00,
+.team-01 {position:absolute; width:500px; height:663px; top:0;/*background-color:rgba(50,0,0,0.2)*/}
+.team-00 {left:0;}
+.team-01 {right:0;}
+
+/***** 4ǿ�ָ��� *****/
+.team-4th {position:absolute; width:366px; height:282px; /*background-color:rgba(50,0,0,0.2)*/}
+.team-000 {left:20px; top:42px;}
+.team-001 {left:20px; bottom:57px;}
+.team-010 {right:20px; top:42px;}
+.team-011 {right:20px; bottom:57px;}
+
+/***** 8ǿ�ָ��� *****/
+.team-8th {position:absolute; width:240px; height:140px; /*background-color:rgba(50,0,0,0.2);*/}
+.blk_left .team-8th {left:0;}
+.blk_right .team-8th {right:0;}
+.team-0000 {top:0;}
+.team-0010 {top:6px;}
+.team-0100 {top:0;}
+.team-0110 {top:6px;}
+
+.team-0001 {top:140px;}
+.team-0011 {top:146px;}
+.team-0101 {top:140px;}
+.team-0111 {top:146px;}
+
+/***** 16ǿ�ָ��� *****/
+.team-16th {position:absolute; width:104px; height:66px; /*background-color:rgba(50,0,0,0.2);*/}
+.blk_left .team-16th {left:8px;}
+.blk_right .team-16th {right:8px;}
+.team-00000,
+.team-00100,
+.team-01000,
+.team-01100 {top:0px;}
+.team-00010,
+.team-00110,
+.team-01010,
+.team-01110 {top:5px;}
+
+.team-00001,
+.team-00101,
+.team-01001,
+.team-01101 {top:66px;}
+.team-00011,
+.team-00111,
+.team-01011,
+.team-01111 {top:71px;}
+
+.team-flag {position:absolute;}
+.team-name {position:absolute; width:80px; text-align:center; color:white; font-size:14px; font-weight:bold; text-shadow:2px 2px black; display:none;}
+
+.blk_left .team-4th .team-flag {left:264px; top:124px;}
+.blk_left .team-8th .team-flag {left:138px; top:51px;}
+.blk_left .team-16th .team-flag {left:16px; top:13px;}
+.blk_left .team-16th .team-name {left:-8px; top:48px; display:block;}
+.blk_right .team-4th .team-flag {right:253px; top:124px;}
+.blk_right .team-8th .team-flag {right:138px; top:51px;}
+.blk_right .team-16th .team-flag {right:10px; top:13px;}
+.blk_right .team-16th .team-name {right:-6px; top:48px; display:block;}
+
+.team-00 .team-flag {left:423px; top:305px;}
+.team-01 .team-flag {right:417px; top:305px;}
+.team-0 span.team-flag {left:482px; top:234px;}
+.team-0 span.team-name {left:459px; top:272px; display:block; font-size:15px;}
+
+.team-0 .win_icon {display:none; position:absolute; width:25px; height:25px; background:url(images/point.png) 0 -50px;}
+.team-0 .win_icon_active {display:block;}
+.blk_left .team-4th .win_icon {left:314px; top:132px;}
+.blk_left .team-8th .win_icon {left:188px; top:59px;}
+.blk_left .team-16th .win_icon {left:66px; top:22px;}
+.blk_right .team-4th .win_icon {right:308px; top:132px;}
+.blk_right .team-8th .win_icon {right:188px; top:59px;}
+.blk_right .team-16th .win_icon {right:62px; top:22px;}
+
+#weibo_btn {position:absolute; z-index:4; left:364px; bottom:29px; width:275px; height:72px; background:url(images/shareBtn.jpg) 0 -144px;}
+#weibo_btn a {position:absolute; top:0; left:0; z-index:5; width:275px; height:72px; background:url(images/shareBtn.jpg); line-height:99; overflow:hidden;}
+#weibo_btn a:hover {background:url(images/shareBtn.jpg) 0 -72px;}
+
+#weibo_btn span {position:absolute; top:0; left:0; z-index:4; width:194px; height:72px; background:url(http://www.sinaimg.cn/dy/stencil/sysimages/sysimg/loading_01.gif) 40px center no-repeat; font-size:20px; font-weight:bold; line-height:72px; color:white; text-shadow:2px 2px black; padding-left:81px;}
+

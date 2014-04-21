@@ -1,0 +1,1 @@
+php /data/wwwroot/friendou/project.ads/protected/yiic channel test

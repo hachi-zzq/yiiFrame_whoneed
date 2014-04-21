@@ -1,0 +1,39 @@
+.content_t {
+	width:900px;
+	margin:auto;
+	border-bottom:1px dashed #a43a2b;
+}
+.content_t h1, .content_t p {
+	text-align:center;
+}
+.content_t h1 {
+	font-size:24px;
+	color:#ffffff;
+	line-height:30px;
+}
+.content_t p {
+	font-size:24px;
+	font-size:13px;
+	color:#cca3a4;
+	line-height:65px;
+}
+.content_c {
+	width:900px;
+	margin:auto;
+	padding:40px 0 60px 0;
+	color:#ffffff;
+}
+.con_c_l {
+	width:135px;
+	text-align:right;
+	line-height:60px;
+	float:left;
+}
+.con_c_r {
+	width:754px;
+	text-align:left;
+	float:right;
+}
+.con_c_r p {
+	line-height:50px;
+}

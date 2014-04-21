@@ -1,0 +1,2 @@
+<div class="dh"><a href="/" id="nav1"><span>官网首页</span></a><a id="nav2" href="/site/new_index"><span>新闻公告</span></a><a href="/site/game_data_index" id="nav3"><span>游戏资料</span></a><a href="/site/strategy_guide_index" id="nav4"><span>攻略指南</span></a><a href="/site/customer" id="nav5"><span>客服中心</span></a><a target="_blank" href="http://bbs.patabom.com/forum.php?mod=forumdisplay&fid=51" id="nav6"><span>游戏论坛</span></a></div>
+

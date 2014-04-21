@@ -1,0 +1,189 @@
+/* CSS Document */
+
+.content_l_a {
+	background:url(../images/banner_bj.png) no-repeat 0 0;
+	width:514px;
+	height:296px;
+	float:left;
+}
+
+.content_r_a {
+	width:468px;
+	float:right;
+}
+
+.content_l_b {
+	width:608px;
+	float:left;
+}
+
+.content_r_b {
+	width:366px;
+	float:right;
+}
+.comiis_wrapad {
+	margin:12px auto 0 auto;
+	width: 490px;
+	overflow: hidden;
+}
+#frameHlicAe {
+	position:relative
+}
+.slidebar {
+	position: absolute;
+	right: 5px;
+	bottom: 10px;
+}
+.slidebar li {
+	float: left;
+	margin-right:8px;
+	width:12px;
+	height:12px;
+	background:url(../images/bullets.png) no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+	text-indent:-999px;
+}
+.slidebar li.on {
+	background-position:0 -22px;
+}
+#slidesImgs li {
+	width: 490px;
+	height: 272px;
+	display: none;	
+}
+
+#slidesImgs li a {
+	width:490px;
+	height:272px;
+	border-radius:10px;
+	-moz-border-radius:10px;  -webkit-border-radius:10px; 
+	background-repeat: no-repeat;
+	background-position:center center;
+	border:0px;
+	behavior: url(pie.htc);
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+#slidesImgs li a.a1 {
+	background:url(../images/banner1.jpg);
+}
+
+#slidesImgs li a.a2 {
+	background:url(../images/banner2.jpg);
+}
+
+#slidesImgs li a.a3 {
+	background:url(../images/banner3.jpg);
+}
+
+
+.t_title {
+	position:absolute;
+	left:10px;
+	top:13px;
+}
+
+.t_title a {
+	display:inline-block;
+	width:79px;
+	height:35px;
+	color:#3d8121;
+	font-size:16px;
+	text-align:center;
+	line-height:35px;
+	margin-right:5px;
+}
+
+.t_title a:hover , .t_title a.current {
+	color:#ffffff;
+	background:url(../images/t_bj.png) no-repeat;
+}
+
+/*首页新闻列表*/
+
+.content_r_a_c {
+	padding:0 20px;
+    min-height: 215px;
+}
+
+.news_list {
+	padding-top:6px;
+}
+
+.news_list li {
+	height:35px;
+	position:relative;
+}
+.news_list li a {
+	color:#666666;
+}
+
+.news_list li a:hover {
+	
+	text-decoration:none;
+	color:#68aa0e;
+}
+
+.news_list li span.time {
+	color:#999999;
+	position:absolute;
+	right:10px;
+}
+
+/*合作媒体*/
+.content_hzmt{padding:0 0 0 13px;*height:66px;}
+.content_hzmt li{float:left;margin:13px 10px 5px 10px;display:inline;}
+
+
+/*游戏截图*/
+.con_center_yxjt{background:url(../images/content_left_b.png) repeat-y;}
+.content_yxjt{padding:0 0px 0 13px;height:195px;}
+.content_yxjt li{float:left;margin:10px 6px 5px 5px;display:inline;}
+
+
+/*客服中心*/
+.con_center_kfzx{background:url(../images/content_r_b.png) repeat-y;}
+.content_kfzx{padding:0 0px 0 23px;}
+
+
+.customer p{
+	color:#666;
+	line-height:30px;
+	font-size:12px;
+}
+.customer span{margin:10px 0 0 0;display:block;}
+
+.customer {
+	height:195px;
+}
+
+
+/* 球员展示*/
+
+.content_qyzs{}
+.content_qyzs li{float:left;margin:13px 11px 5px 11px;display:inline;}
+
+
+
+
+#demo {
+
+overflow:hidden;
+
+width: 950px;margin:0 0 0 18px;
+}
+
+#con_center_ny {
+float: left;
+width: 800%;
+}
+#content_qyzs {
+float: left;
+}
+#demo2 {
+float: left;
+}
+

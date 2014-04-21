@@ -1,0 +1,76 @@
+/* CSS Document */
+
+.reveal-modal-bg {
+    position:fixed;
+    height:100%;
+    width:100%;
+    background-color:#000;
+    z-index:100;
+    display:none;
+    top:0;
+    left:0;
+    _width:100%;
+}
+.reveal-modal {
+    top:50%;
+    left:50%;
+    width:550px;
+    position:absolute;
+    z-index:101;
+    height:365px;
+    margin:-182px 0 0 -275px;
+}
+.reveal-modal .close-dumascroll {
+    font-size:22px;
+    line-height:.5;
+    position:absolute;
+    top:8px;
+    color:#fff;
+    text-shadow:0 -1px 1px rbga(0, 0, 0, .6);
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.reveal-modal-register-bg {
+    position:fixed;
+    height:100%;
+    width:100%;
+    background-color:#000;
+    z-index:100;
+    display:none;
+    top:0;
+    left:0;
+    _width:100%;
+}
+.reveal-modal-register {
+    top:50%;
+    left:50%;
+    width:500px;
+    position:absolute;
+    z-index:101;
+    height:467px;
+    margin:-233px 0 0 -250px
+}
+.reveal-modal-register .close-dumascroll {
+    font-size:22px;
+    line-height:.5;
+    position:absolute;
+    top:8px;
+    color:#fff;
+    text-shadow:0 -1px 1px rbga(0, 0, 0, .6);
+    font-weight:bold;
+    cursor:pointer;
+}
+.news_back_btn {
+    position:absolute;
+    left:5px;
+    top:5px;
+    color:#aaa;
+    text-shadow:0 -1px 1px rbga(0, 0, 0, .6);
+    font-weight:bold;
+    cursor:pointer;
+}
+.select_game{
+padding-top:30px;
+padding-bottom:50px;
+}

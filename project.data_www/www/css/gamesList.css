@@ -1,0 +1,99 @@
+/* CSS Document */
+.games_ul {
+    width:981px;
+    height:477px;
+}
+
+.games_ul_1 {
+    width:981px;
+    height:318px;
+    margin-top:16px;
+}
+.games_ul_2 {
+    width:981px;
+    height:318px;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+.games_li {
+    width:327px;
+    height:159px;
+    float:left;
+}
+.games_list {
+    width:315px;
+    height:147px;
+    margin:6px;
+    position:relative;
+}
+.games_list a span {
+    display:none;
+    cursor:hand;
+    text-align:center;
+    font-size:14px;
+    font-family:"微软雅黑";
+    color:#7a828b;
+}
+.games_list a:hover span {
+    width:315px;
+    margin:0;
+    background:#000;
+    display:block;
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+    filter:alpha(opacity=56);
+    -moz-opacity:0.6;
+    opacity:0.6;
+    border-top:1px #2b2724 solid;
+}
+
+
+.news_ul {
+    width:972px;
+    height:100%;
+    margin:0 auto 20px auto
+}
+/*.news_li {
+	width:486px;
+	height:135px;
+	float:left;
+	border-bottom:1px dashed #5c6879;
+}*/
+.news_list {
+    width:486px;
+    height:120px;
+    float:left;
+    border-bottom:1px dashed #5c6879;
+}
+.news_left_left {
+    width:105px;
+}
+.news_left_right {
+    width:235px;
+    padding:0 20px 10px 0;
+}
+
+.news_ul ul li
+{
+    width:486px;
+    padding-top:15px;
+    float:left;
+}
+
+.title_left a {
+    color:#ffffff;
+    font-size:15px;
+    text-decoration:none;
+    font-family:"微软雅黑"
+}
+.title_left a:hover {
+    text-decoration:underline;
+}
+.news_content {
+    color:#94c7ff;
+    line-height:26px;
+    padding-top:8px;
+    font-family:"微软雅黑";
+}

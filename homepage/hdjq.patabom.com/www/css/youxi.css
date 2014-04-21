@@ -1,0 +1,57 @@
+.content_t {
+	width:900px;
+	margin:auto;
+	
+}
+.content_t h1, .content_t p {
+	text-align:center;
+}
+.content_t h1 {
+	font-size:24px;
+	color:#ffffff;
+	line-height:30px;
+}
+.content_t p {
+	font-size:24px;
+	font-size:13px;
+	color:#cca3a4;
+	line-height:65px;
+}
+.content_c p.ct {
+	padding:30px 0 30px 0;
+	text-align:center;
+}
+.content_c {
+	width:850px;
+	margin:auto;
+	padding:40px 0 60px 0;
+}
+.content_c p {
+	text-indent:24px;
+	font-size:14px;
+	color:#ffffff;
+	line-height:32px;
+}
+
+
+.youxi01{background:url(/images/youxi_bj01.jpg);width:810px;height:580px}
+.youxi_input{padding:260px 0 0 40px;}
+
+.youxi_button{padding:120px 0 0 70px;}
+.youxi_an01{background:url(/images/youxi_an01.png);width:147px;height:91px;border:0px; cursor:pointer;}
+
+.youxi_wb01{background:url(/images/youxi_wb01.png);line-height: 69px;width:319px;height:69px;border:0px;padding:0px 0 0 100px;font-size:18px;font-family:"黑体";}
+
+.youxi_button a{background:url(/images/youxi_an01.png);width:147px;height:91px;border:0px; cursor:pointer;display:block;}
+.youxi_button a:hover{background:url(/images/youxi_an03.png);width:147px;height:91px;border:0px; cursor:pointer;display:block;}
+
+
+.youxi02{background:url(/images/youxi_bj02.jpg);width:810px;height:580px;}
+.youxi_input2{padding:260px 0 0 430px;font-size:36px;font-family:"黑体";color:#6a0b04;font-weight:bold;}
+
+.youxi_button2{padding:30px 0 0 560px;}
+.youxi_an02{background:url(/images/youxi_an02.png);width:187px;height:117px;border:0px; cursor:pointer;}
+
+.youxi_button2 a{background:url(/images/youxi_an02.png);width:187px;height:117px;border:0px; cursor:pointer;display:block;}
+.youxi_button2 a:hover{background:url(/images/youxi_an04.png);width:187px;height:117px;border:0px; cursor:pointer;}
+
